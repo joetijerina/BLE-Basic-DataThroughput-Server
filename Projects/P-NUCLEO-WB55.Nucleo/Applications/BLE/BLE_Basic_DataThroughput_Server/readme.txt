@@ -78,7 +78,7 @@ Connectivity, BLE, IPCC, HSEM, RTC, UART, PWR, BLE protocol, BLE pairing, BLE pr
 
 This application requires having the stm32wb5x_BLE_Stack_full_fw.bin binary flashed on the Wireless Coprocessor.
 If it is not the case, you need to use STM32CubeProgrammer to load the appropriate binary.
-All available binaries are located under /Projects/STM32_Copro_Wireless_Binaries directory.
+All available binaries are located under /Projects/STM32_Copro_Wireless_Binaries directory of the official STM32CubeWB v1.13.1 package (https://github.com/STMicroelectronics/STM32CubeWB/releases/tag/v1.13.1).
 Refer to UM2237 to learn how to use/install STM32CubeProgrammer.
 Refer to /Projects/STM32_Copro_Wireless_Binaries/ReleaseNote.html for the detailed procedure to change the
 Wireless Coprocessor binary.  
