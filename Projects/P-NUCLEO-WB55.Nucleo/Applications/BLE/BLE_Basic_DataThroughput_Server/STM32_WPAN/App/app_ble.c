@@ -244,6 +244,7 @@ static void Connection_Interval_Update_Req( void );
 /* USER CODE BEGIN PFP */
 static void payloadTimerCallback(void);          //[JT]
 static void LinkConfiguration(void);             //[JT]
+void PHY_Configuration(void);             //[JT]
 /* USER CODE END PFP */
 
 /* External variables --------------------------------------------------------*/

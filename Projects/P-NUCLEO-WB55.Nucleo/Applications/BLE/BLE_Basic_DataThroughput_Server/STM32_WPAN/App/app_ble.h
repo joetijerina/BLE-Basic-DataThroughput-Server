@@ -70,6 +70,9 @@ extern "C" {
   void APP_BLE_Init( void );
 
 /* USER CODE BEGIN EF */
+void APP_BLE_Key_Button1_Action(void);  //[JT]
+void APP_BLE_Key_Button2_Action(void);  //[JT]
+void APP_BLE_Key_Button3_Action(void);  //[JT]
 
 /* USER CODE END EF */
 

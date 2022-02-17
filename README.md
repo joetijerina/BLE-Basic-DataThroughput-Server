@@ -6,10 +6,10 @@
 
 This Hotspot FW package includes:
 * Application example under "Projects\P-NUCLEO-WB55.Nucleo\Applications\BLE" called BLE_Basic_DataThroughput_Server.     
-   * This example implements a basic BLE Server for data throughput application via notification to a client using the BLE component. 
-   * The Client can be either another STM32WB55xx device or an iOS or Android Smartphone running a generic app like ST BLE Toolbox. 
+   * This example implements a basic BLE GATT Server for data throughput application via notification to a GATT Client using the BLE component. 
+   * The Client can be either another STM32WB55xx device or an iOS or Android Smartphone running a generic app like ST BLE Toolbox or LightBlue. 
    * The Server device transmits a stream of Notification packets, and the Client device receives these packets. 
-   * The example also aims to demonstrate to the user how to configure the system (pinout, clocks, peripherals, utilities) and BLE WPAN middleware from STM32CubeMX to properly configure the BLE stack, and show how to schedule data transfers via Notifications from the user application.       
+   * The example also aims to demonstrate to the user how to configure the system (pinout, clocks, peripherals, utilities) and BLE WPAN middleware from STM32CubeMX to properly configure the BLE stack, and show how to schedule data transfers via Notifications from the user application to maximize throughput.       
    * Development tools, toolchains/compilers: STM32CubeMX v6.4.0, IAR EWARM V9.20.x
    * Supported Devices and hardware boards: NUCLEO-WB55RG
    * Known limitations: None
@@ -17,7 +17,7 @@ This Hotspot FW package includes:
 ## Boards Needed
 
   * Two NUCLEO-WB55RG
-    * [NUCLEO-WB55RG](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html)
+    * [NUCLEO-WB55RG](https://www.st.com/en/evaluation-tools/nucleo-wb55rg.html)
 
 ## Troubleshooting
 

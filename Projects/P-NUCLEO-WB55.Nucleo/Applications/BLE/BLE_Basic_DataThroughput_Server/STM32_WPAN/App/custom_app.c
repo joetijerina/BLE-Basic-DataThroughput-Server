@@ -88,7 +88,7 @@ static void Custom_Srvtoclient_Update_Char(void);
 static void Custom_Srvtoclient_Send_Notification(void);
 
 /* USER CODE BEGIN PFP */
-static void P2PS_Send_Notification(void);  //[JT]
+static void P2PS_Send_Notification(void);   //[JT]
 static void Button2_Trigger_Received(void); //[JT]
 /* USER CODE END PFP */
 
@@ -273,9 +273,8 @@ void P2PS_APP_SW1_Button_Action(void)
 
 
 //[JT]
-void Button2_Trigger_Received(void)
+static void Button2_Trigger_Received(void)
 {
-  
   PHY_Configuration();
 }
 
