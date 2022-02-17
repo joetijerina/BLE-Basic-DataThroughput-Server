@@ -21,6 +21,6 @@ This Hotspot FW package includes:
 
 ## Troubleshooting
 
-**Caution** : Issues and the pull-requests are **not supported** to submit problems or suggestions related to the software delivered in this repository. The STM32WL_SubGHz_Phy_Basic_Tx_Rx example is being delivered as-is, and not necessarily supported by ST.
+**Caution** : Issues and the pull-requests are **not supported** to submit problems or suggestions related to the software delivered in this repository. The BLE_Basic_DataThroughput_Server example is being delivered as-is, and not necessarily supported by ST.
 
 **For any other question** related to the product, the hardware performance or characteristics, the tools, the environment, you can submit it to the **ST Community** on the STM32 MCUs related [page](https://community.st.com/s/topic/0TO0X000000BSqSWAW/stm32-mcus).
