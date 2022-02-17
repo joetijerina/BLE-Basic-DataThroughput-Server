@@ -1,32 +1,26 @@
-# STM32CubeWB MCU Firmware Package
+# STM32-Hotspot/BLE-Basic-DataThroughput-Server MCU Firmware Package, based on STM32CubeWB Release v1.13.1
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/STM32CubeWB.svg?color=brightgreen)
 
-**STM32Cube** is an STMicroelectronics original initiative to ease developers' life by reducing efforts, time and cost.
+## Example
 
-**STM32Cube** covers the overall STM32 products portfolio. It includes a comprehensive embedded software platform delivered for each STM32 series.
-   * The CMSIS modules (core and device) corresponding to the ARM(tm) core implemented in this STM32 product.
-   * The STM32 HAL-LL drivers, an abstraction layer offering a set of APIs ensuring maximized portability across the STM32 portfolio.
-   * The BSP drivers of each evaluation, demonstration or nucleo board provided for this STM32 series.
-   * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
-   * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
+This Hotspot FW package includes:
+* Application example under "Projects\P-NUCLEO-WB55.Nucleo\Applications\BLE" called BLE_Basic_DataThroughput_Server.     
+   * This example implements a basic BLE Server for data throughput application via notification to a client using the BLE component. 
+   * The Client can be either another STM32WB55xx device or an iOS or Android Smartphone running a generic app like ST BLE Toolbox. 
+   * The Server device transmits a stream of 240 byte Notification packets, and the Client device receives these packets. 
+   * The example also aims to demonstrate to the user how to configure the system (pinout, clocks, peripherals, utilities) and BLE WPAN middleware from STM32CubeMX to properly configure the BLE stack, and show how to schedule data transfers via Notifications from the user application.       
+   * Development tools, toolchains/compilers: STM32CubeMX v6.4.0, IAR EWARM V9.20.x
+   * Supported Devices and hardware boards: NUCLEO-WB55RG
+   * Known limitations: None
 
-The **STM32CubeWB MCU Package** projects are directly running on the STM32WB series boards. You can find in each Projects/*Board name* directories a set of software projects (Applications/Demonstration/Examples).
+## Boards Needed
 
-## Release note
-
-Details about the content of this release are available in the release note [here](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeWB/blob/master/Release_Notes.html).
-
-## Boards available
-
-  * STM32WB55
-    * [NUCLEO-WB15CC](https://www.st.com/en/evaluation-tools/nucleo-wb15cc.html)
-    * [P-NUCLEO-WB55.Nucleo](https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html)
-    * [P-NUCLEO-WB55.USBDongle](https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html)
-    * [STM32WB5MM-DK](https://www.st.com/en/evaluation-tools/stm32wb5mm-dk.html)
+  * Two NUCLEO-WB55RG
+    * [NUCLEO-WB55RG](https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html)
 
 ## Troubleshooting
 
-**Caution** : The issues and the pull-requests are **strictly limited** to submit problems or suggestions related to the software delivered in this repository.
+**Caution** : Issues and the pull-requests are **not supported** to submit problems or suggestions related to the software delivered in this repository. The STM32WL_SubGHz_Phy_Basic_Tx_Rx example is being delivered as-is, and not necessarily supported by ST.
 
-**For any other question** related to the product, the hardware performance or characteristics, the tools, the environment, you can submit it to the **ST Community** on the STM32 MCUs related [page](https://community.st.com/s/group/0F90X000000AXsASAW/stm32-mcus).
+**For any other question** related to the product, the hardware performance or characteristics, the tools, the environment, you can submit it to the **ST Community** on the STM32 MCUs related [page](https://community.st.com/s/topic/0TO0X000000BSqSWAW/stm32-mcus).
